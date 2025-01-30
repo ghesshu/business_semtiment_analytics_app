@@ -1,6 +1,12 @@
 # Sentiment Analysis with Logistic Regression
 
-This repository provides a sentiment analysis implementation using Logistic Regression. The model is trained on Amazon product reviews, and the goal is to classify reviews into positive and negative sentiments. Additionally, the model calculates sentiment percentages and extracts key themes from the reviews.
+This repository provides a sentiment analysis implementation using Logistic Regression, designed to answer the following **Business Analytics** question:
+
+### Question:
+**Create a program that performs sentiment analysis on customer reviews for a product or service. The program should read a set of customer reviews, analyze the sentiment (positive, negative, neutral), and provide a summary of customer feedback along with any notable recurring themes.**
+
+### Requirements:
+- The program outputs a **sentiment analysis report** that includes the percentage of positive, negative, and neutral sentiments, as well as **key themes** extracted from the reviews.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -21,6 +27,8 @@ This project leverages logistic regression to classify sentiment in Amazon produ
 3. **Model Training**: Uses Logistic Regression to train on the training data.
 4. **Sentiment Classification**: Classifies reviews into positive or negative sentiments.
 5. **Sentiment Analysis Report**: Outputs sentiment percentages and key themes based on TF-IDF scores.
+
+The code was built specifically to address the question about performing sentiment analysis and summarizing customer feedback for business analytics purposes.
 
 ## Requirements
 
@@ -155,5 +163,3 @@ for word, score in zip(top_words, top_scores):
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to update paths or any other specifics in the README. This should help others understand the project and be able to reuse it for their own sentiment analysis tasks!
