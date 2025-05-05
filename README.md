@@ -2,8 +2,8 @@
 
 This repository provides a sentiment analysis implementation using Logistic Regression, designed to answer the following **Business Analytics** question:
 
-### Question:
-**Create a program that performs sentiment analysis on customer reviews for a product or service. The program should read a set of customer reviews, analyze the sentiment (positive, negative, neutral), and provide a summary of customer feedback along with any notable recurring themes.**
+### Application
+**A program that performs sentiment analysis on customer reviews for a product or service. The program should read a set of customer reviews, analyze the sentiment (positive, negative, neutral), and provide a summary of customer feedback along with any notable recurring themes.**
 
 ### Requirements:
 - The program outputs a **sentiment analysis report** that includes the percentage of positive, negative, and neutral sentiments, as well as **key themes** extracted from the reviews.
